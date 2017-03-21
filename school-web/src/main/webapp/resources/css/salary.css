@@ -1,0 +1,68 @@
+.content .text .btn {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-decoration: none;
+	font-size: 18px;
+	color: #428bca;
+}
+
+#current {
+	width: 600px
+}
+
+.tooltip-inner {
+	max-width: 200px;
+	padding: 3px 8px;
+	color: red;
+	font-size: small;
+	text-align: center;
+	text-decoration: none;
+	background-color: rgb(172, 193, 237);
+	border-radius: 4px;
+}
+
+#currenthead {
+	width: 300px
+}
+
+.scrolling {
+	overflow: scroll;
+	height: 450px;
+	width: 900px;
+}
+
+.message {
+	width: 500px;
+}
+
+thead {
+	background-color: #d9edf7;
+}
+
+th {
+	text-align: center;
+	background-color: #d9edf7;
+}
+
+td {
+	text-align: center;
+}
+
+.modal-title {
+	text-align: center;
+}
+
+.modal-body {
+	width: 100%;
+	text-align: center;
+}
+
+.modal-footer .btn {
+	display: block;
+	margin: 0 auto;
+}
+
+.modal-content .btn {
+	padding-left: 30px;
+	padding-right: 30px;
+	weight: 100%;
+}

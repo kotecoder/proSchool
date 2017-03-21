@@ -1,0 +1,127 @@
+.profile_buttons {
+	position: fixed;
+	right: 0px;
+	top: 120px;
+	font-size: 14px;
+	color: #428bca;
+}
+
+.profile_buttons p {
+	width: 200px;
+	margin-left: 0px;
+	text-align: center;
+}
+
+.profile_buttons tbody tr:hover>td {
+	cursor: pointer;
+	color: black;
+	background-color: #E8E8E8;
+}
+
+.profile_table {
+	width: 520px;
+}
+
+.small_logo {
+	width: 90px;
+	height: 90px;
+	margin: 0px;
+}
+
+.chield_and_parent_container {
+	max-width: 520px;
+	overflow: auto;
+}
+
+.uploadButton {
+	font-size: 20px;
+	color: #428bca;
+	width: 100px;
+}
+
+.profile_information hr {
+	width: 300px;
+}
+
+.all_in_one_line, h5, h6 {
+	margin-top: 0px !important;
+	margin-bottom: 3px !important;
+}
+
+.edit_profile_table {
+	border-spacing: 20px;
+	border-collapse: separate;
+.btn1 {
+	display: inline-block;
+	padding: 2px 12px;
+	margin-bottom: 0;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 1.42857143;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	-ms-touch-action: manipulation;
+	touch-action: manipulation;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	background-image: none;
+	border: 1px solid transparent;
+	border-radius: 4px;
+}
+
+.btn-sample1 {
+	color: #428BCA;
+	background-color: #FFFFFF;
+	border: 1px solid #E4E7F5 !important;
+}
+.selectCompose {
+	width: 150px;
+	left: 415.5px;
+	position: inherit;
+	top: 31px;
+	z-index: 1;
+	padding: 0px;
+	height: 30px !important;
+	border: 0px !important;
+}
+
+.form-control1 {
+	display: block;
+	width: 100%;
+	height: 34px;
+	padding: 6px 12px;
+	font-size: 14px;
+	line-height: 1.42857143;
+	color: #555;
+	background-color: #fff;
+	background-image: none;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+	-webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow
+		ease-in-out .15s;
+	-o-transition: border-color ease-in-out .15s, box-shadow ease-in-out
+		.15s;
+	transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+.form-control2 {
+	display: inline;
+	width: 150px;
+	height: 34px;
+	padding: 5px 10px;
+	font-size: 14px;
+	line-height: 1.42857143;
+	color: #555;
+	background-color: #fff;
+	background-image: none;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+	transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}

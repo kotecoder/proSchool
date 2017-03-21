@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+
+<tiles-definitions>
+	<definition name="base.definition" template="/views/layout.jsp">
+		<put-attribute name="header" value="/views/tiles/header.jsp" />
+		<put-attribute name="sidebar" value="/views/tiles/sidebar.jsp" />
+		<put-attribute name="main_content" value="" />
+	</definition>
+
+	<definition name="home" extends="base.definition">
+		<put-attribute name="title" value="Home page" />
+		<put-attribute name="main_content" value="/views/home/home.jsp" />
+	</definition>
+
+	<definition name="signinfailure" extends="base.definition">
+		<put-attribute name="title" value="Home page" />
+		<put-attribute name="main_content" value="/views/home/signinfailure.jsp" />
+	</definition>
+
+	<definition name="profile" extends="base.definition">
+		<put-attribute name="title" value="Profile" />
+		<put-attribute name="main_content" value="/views/profile/profile.jsp" />
+	</definition>
+	<definition name="profile_information" template="/views/profile/profile_information.jsp">
+	</definition>
+
+	<definition name="registration_groups" template="/views/home/registration_groups.jsp">
+	</definition>
+
+	<definition name="role_confirmation" template="/views/admin/role_confirmation.jsp">
+	</definition>
+
+	<definition name="admin" extends="base.definition">
+		<put-attribute name="title" value="Admin Panel" />
+		<put-attribute name="main_content" value="/views/admin/admin.jsp" />
+	</definition>
+
+	<definition name="journal" extends="base.definition">
+		<put-attribute name="title" value="Journal" />
+		<put-attribute name="main_content" value="/views/journal/journal.jsp" />
+	</definition>
+
+	<definition name="journal-group-marks" extends="base.definition">
+		<put-attribute name="title" value="Journal" />
+		<put-attribute name="main_content"
+			value="/views/journal/journal-group-marks.jsp" />
+	</definition>
+
+	<definition name="student-rating" extends="base.definition">
+		<put-attribute name="title" value="Rating" />
+		<put-attribute name="main_content"
+			value="/views/student-rating/student-rating.jsp" />
+	</definition>
+
+	<definition name="diary" extends="base.definition">
+		<put-attribute name="title" value="Diary" />
+		<put-attribute name="main_content" value="/views/journal/diary.jsp" />
+	</definition>
+
+	<definition name="diary-parent" extends="base.definition">
+		<put-attribute name="title" value="Diary" />
+		<put-attribute name="main_content" value="/views/journal/diary-parent.jsp" />
+	</definition>
+
+	<definition name="diary-parent-*" extends="base.definition">
+		<put-attribute name="title" value="Diary" />
+		<put-attribute name="main_content" value="/views/journal/diary-parent-id.jsp" />
+	</definition>
+
+	<definition name="groups-*" extends="base.definition">
+		<put-attribute name="title" value="Group page" />
+		<put-attribute name="main_content" value="/views/groups/{1}.jsp" />
+	</definition>
+
+	<definition name="courses-*" extends="base.definition">
+		<put-attribute name="title" value="Courses page" />
+		<put-attribute name="main_content" value="/views/courses/{1}.jsp" />
+	</definition>
+
+	<definition name="salary-*" extends="base.definition">
+		<put-attribute name="title" value="Salary page" />
+		<put-attribute name="main_content" value="/views/salary/{1}.jsp" />
+		<put-attribute name="current" value="salary" />
+	</definition>
+
+	<definition name="course-request-*" extends="base.definition">
+		<put-attribute name="title" value="Course request page" />
+		<put-attribute name="main_content" value="/views/course-request/{1}.jsp" />
+	</definition>
+
+	<definition name="messages" extends="base.definition">
+		<put-attribute name="title" value="Conversations" />
+		<put-attribute name="main_content" value="/views/messages/messages.jsp" />
+	</definition>
+
+	<definition name="message" extends="base.definition">
+		<put-attribute name="title" value="Conversations" />
+		<put-attribute name="main_content" value="/views/messages/message.jsp" />
+	</definition>
+
+	<definition name="inboxMessages" extends="base.definition">
+		<put-attribute name="title" value="Messages" />
+		<put-attribute name="main_content" value="/views/messages/inboxMessages.jsp" />
+	</definition>
+
+	<definition name="sentMessages" extends="base.definition">
+		<put-attribute name="title" value="Messages" />
+		<put-attribute name="main_content" value="/views/messages/sentMessages.jsp" />
+	</definition>
+
+	<definition name="errorPage" extends="base.definition">
+		<put-attribute name="title" value="errorPage" />
+		<put-attribute name="main_content" value="/views/errorPage.jsp" />
+	</definition>
+
+	<definition name="schedule" extends="base.definition">
+		<put-attribute name="title" value="Schedule" />
+		<put-attribute name="main_content" value="/views/schedule/schedule.jsp" />
+		<put-attribute name="current" value="schedule" />
+	</definition>
+
+	<definition name="contacts" extends="base.definition">
+		<put-attribute name="title" value="Contacts" />
+		<put-attribute name="main_content" value="/views/home/contacts.jsp" />
+		<put-attribute name="current" value="contacts" />
+	</definition>
+
+	<definition name="noConnectionToDB" extends="base.definition">
+		<put-attribute name="title" value="Error" />
+		<put-attribute name="main_content"
+			value="/WEB-INF/errorpage/noConnectionToDB.jsp" />
+	</definition>
+
+</tiles-definitions>

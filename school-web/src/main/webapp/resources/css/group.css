@@ -1,0 +1,35 @@
+.modal-body .btn, .group_modal_window {
+	width: 100%;
+}
+
+.modal-body button[name='yes'] {
+	width: 100px;
+	float: left;
+}
+
+.modal-body button[name='no'] {
+	width: 100px;
+	float: right;
+}
+
+.button_body {
+	width: 90%;
+	margin: 0 auto;
+	height: 70px;
+}
+
+.modal-title, .group_modal_window th {
+	text-align: center;
+}
+
+td {
+	height: 40px;
+}
+
+.addition_couse_checkbox {
+	margin-right: 5px !important;
+}
+
+.addition_name_input, .real_dell_btn, .remove_button {
+	display: none;
+}

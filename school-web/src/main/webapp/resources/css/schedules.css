@@ -1,0 +1,52 @@
+@CHARSET "UTF-8";
+
+#navigation_bar {
+	width: 100%;
+	align-content: right;
+}
+
+.table-responsive {
+	overflow-x: auto;
+}
+
+.datepicker {
+	margin-top: 2px;
+}
+
+.weekend_logo {
+	display: none;
+}
+
+.search_logo {
+	display: none;
+}
+
+.scrolling {
+
+	overflow: scroll;
+	height: 460px;
+
+	width: auto;
+}
+
+.my th, .my td {
+	width: 148px;
+}
+
+.checker {
+	float: right;
+}
+
+
+
+#liniya {
+	float: left;
+}
+
+#col1 {
+	float: left;
+}
+
+#col2 {
+	float: rght;
+}

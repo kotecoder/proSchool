@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+
+    <USER id="1" email="testemail1@gmail.com" firstName="Vladyslav" lastName="Maksymenko" 
+	password="password" registration="2014-10-20 23:06:10" sex="0" confirmed="0"/>
+	<USER id="2" email="testemail2@gmail.com" firstName="Roman" lastName="Mudry" 
+	password="password" registration="2014-10-20 23:08:10" sex="0" confirmed="0"/>
+	<USER id="3" email="testemail3@gmail.com" firstName="Roman" lastName="Mudry2" 
+	password="password" registration="2014-10-20 23:08:10" sex="0" confirmed="0"/>
+	<USER id="4" email="testemail4@gmail.com" firstName="Viktor" lastName="Fedinchuk" 
+	password="password" registration="2014-10-20 23:09:10" sex="0" confirmed="0"/>
+	<USER id="5" email="testemail5@gmail.com" firstName="Roman" lastName="Zherebytsky" 
+	password="password" registration="2014-10-20 23:09:10" sex="0" confirmed="0"/>
+	
+	<CONVERSATION id="1" subject="Subject1" senderId="2" receiverId="1" isAnsweredReceiver="1" isAnsweredSender="1" isDeletedReceiver="0" isDeletedSender="0"/>
+	<CONVERSATION id="2" subject="Subject2" senderId="4" receiverId="2" isAnsweredReceiver="1" isAnsweredSender="1" isDeletedReceiver="0" isDeletedSender="0"/>
+	<CONVERSATION id="3" subject="Subject3" senderId="4" receiverId="1" isAnsweredReceiver="0" isAnsweredSender="0" isDeletedReceiver="0" isDeletedSender="0"/>
+	<CONVERSATION id="4" subject="Subject4" senderId="1" receiverId="4" isAnsweredReceiver="1" isAnsweredSender="1" isDeletedReceiver="0" isDeletedSender="0"/>
+	<CONVERSATION id="5" subject="Subject5" senderId="5" receiverId="1" isAnsweredReceiver="0" isAnsweredSender="0" isDeletedReceiver="0" isDeletedSender="0"/>
+	<CONVERSATION id="6" subject="Subject6" senderId="3" receiverId="1" isAnsweredReceiver="0" isAnsweredSender="0" isDeletedReceiver="0" isDeletedSender="0"/>
+	<CONVERSATION id="7" subject="Subject7" senderId="5" receiverId="1" isAnsweredReceiver="1" isAnsweredSender="1" isDeletedReceiver="0" isDeletedSender="0"/>
+	
+	<MESSAGE id="1" text="Text1" isFromSender="1" dateTime="2014-10-20 23:09:19" isReadSender="1" isReadReceiver="1" conversationId="1" isDeletedReceiver="0" isDeletedSender="0"/>
+	<MESSAGE id="2" text="Text2" isFromSender="1" dateTime="2014-10-20 23:09:18" isReadSender="1" isReadReceiver="1" conversationId="2" isDeletedReceiver="0" isDeletedSender="0"/>
+	<MESSAGE id="3" text="Text3" isFromSender="1" dateTime="2014-10-20 23:09:17" isReadSender="1" isReadReceiver="1" conversationId="3" isDeletedReceiver="0" isDeletedSender="0"/>
+	<MESSAGE id="4" text="Text4" isFromSender="1" dateTime="2014-10-21 23:09:11" isReadSender="1" isReadReceiver="1" conversationId="4" isDeletedReceiver="0" isDeletedSender="0"/>
+	
+	<MESSAGE id="5" text="Text5" isFromSender="1" dateTime="2014-10-21 10:09:10" isReadSender="1" isReadReceiver="1" conversationId="5" isDeletedReceiver="0" isDeletedSender="0"/>
+	<MESSAGE id="6" text="Text6" isFromSender="1" dateTime="2014-10-21 11:09:10" isReadSender="1" isReadReceiver="1" conversationId="6" isDeletedReceiver="0" isDeletedSender="0"/>
+	<MESSAGE id="7" text="Text7" isFromSender="1" dateTime="2014-10-21 12:09:10" isReadSender="1" isReadReceiver="1" conversationId="5" isDeletedReceiver="0" isDeletedSender="0"/>
+	<MESSAGE id="8" text="Text8" isFromSender="0" dateTime="2014-10-22 23:09:25" isReadSender="1" isReadReceiver="1" conversationId="5" isDeletedReceiver="0" isDeletedSender="0"/>
+	<MESSAGE id="9" text="Text9" isFromSender="0" dateTime="2014-10-22 23:09:20" isReadSender="1" isReadReceiver="1" conversationId="6" isDeletedReceiver="0" isDeletedSender="0"/>
+	<MESSAGE id="10" text="Text10" isFromSender="0" dateTime="2014-10-22 23:09:15" isReadSender="1" isReadReceiver="1" conversationId="7" isDeletedReceiver="0" isDeletedSender="0"/>
+</dataset>

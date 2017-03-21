@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+	<USER />
+	<TEACHER />
+	<GROUPS />
+	<STUDENT />
+	<COURSE />
+	<COURSE_REQUEST />
+	<ROOM />
+	<LESSON />
+	<SCHEDULE />
+	<JOURNAL />
+	<student_addition_group_ref />
+	<CONVERSATION />
+	<Message/>
+</dataset>
